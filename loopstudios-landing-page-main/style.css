@@ -1,0 +1,761 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url("../images/desktop/image-hero.jpg");
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ham{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 8em;
+    padding-bottom: 2em;
+    padding-top: 4em;
+} 
+
+li{
+    list-style-type: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap: 21px;
+}
+
+.immersive p{
+    font-size: 4em;
+    font-family: 'Alata';
+    font-weight: 500;
+    color: white;
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.immersive{
+    border:2px solid white;
+    width: 40%;
+    margin-left: 8em;
+    margin-top: 4em;
+}
+
+
+.interactive h1{
+    font-size: 3em;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
+.interactive p{
+    padding-top: 1em;
+    
+    
+}
+
+.para{
+    color: hsl(0, 0%, 41%);
+    font-weight: 700;
+    font-family: 'Alata';
+}
+
+.interactive {
+  position: relative;
+  bottom: 23em;
+  padding-top: 8em;
+  padding-left: 4.5em;
+  background-color: white;
+  width: 50%;
+  margin-left: 36em;
+}
+
+.box{
+    margin: 10em;
+    margin-left: 8em;
+    margin-bottom: 0;
+    /* border: 2px solid black; */
+}
+
+.grid{
+    position: relative;
+    bottom: 12em;
+}
+
+
+.btn{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 8em;
+    width: 80.1%;
+    padding-bottom: 6em;
+   
+    
+}
+
+.btn h1{
+    font-size: 2em;
+}
+
+.btn button{
+    font-size: 1.3em;
+    background: transparent;
+    color: black;
+    border:2px solid black;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.img1{
+    background: url(./images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img1 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img2{
+    background: url(./images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img2 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img3{
+    background: url(./images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img3 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img4{
+    background: url(./images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img4 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img5{
+    background: url(./images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img5 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img6{
+    background: url(./images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img6 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img7{
+    background: url(./images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img7 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img8{
+    background: url(./images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    width: 17em;
+    height: 28em;
+}
+
+.img8 p{
+    color: white;
+    font-size: 2.2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    row-gap: 1.8em;
+    width: 60%;
+    padding-left: 8.5em;
+}
+
+footer{
+    background: black;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-bottom: 3em;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5em;
+}
+
+span{
+    color:  hsl(0, 0%, 41%);
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;  
+}
+
+.footicon{
+    margin-right: 2em;
+}
+
+
+@media only screen and (max-width: 1075px) {
+  .header{
+    border: 2px solid red;
+  }
+  .immersive{
+    font-size: 0.8em;
+    margin-top: 5em;
+  }
+  .section2{
+    border: 2px solid red;
+  }
+   .interactive{
+    border: 2px solid red;
+    width: 40%;
+    bottom: 20.8em;
+    margin-left:34em;
+    padding: 0%;
+   }
+   .interactive  h1{
+    padding-top: 1.5em;
+   }
+   .box{
+    border: 2px solid red;
+    margin: 0;
+    padding-top: 5em;
+    padding-left: 40px;
+   }
+   .container{
+    width: 98%;
+     padding-left: 0em;
+     margin-left: 1.4em;
+   }
+   
+.img1{
+    background: url(./images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img1 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img2{
+    background: url(./images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img2 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img3{
+    background: url(./images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img3 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img4{
+    background: url(./images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img4 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img5{
+    background: url(./images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img5 p{
+    color: white;
+    font-size: 2em;
+    width: 70%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img6{
+    background: url(./images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img6 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img7{
+    background: url(./images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img7 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img8{
+    background: url(./images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    width: 14em;
+    height: 28em;
+}
+
+.img8 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+ }
+ footer{
+    background: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+}
+}
+@media only screen and (max-width: 987px) {
+    .container{
+        width: 98%;
+         padding-left: 0em;
+         margin-left: 0.7em;
+       }
+}
+@media only screen and (max-width: 909px) {
+    .interactive{
+    margin-left: 29em;
+    width: 46%;
+    bottom: 18.4em;
+}
+.interactive  h1{
+    font-size: 2.7em;
+    padding-top: 1em;
+   }
+   .image{
+    width: 80%;
+   }
+   .img1{
+    background: url(./images/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img1 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img2{
+    background: url(./images/desktop/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img2 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img3{
+    background: url(./images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img3 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img4{
+    background: url(./images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img4 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img5{
+    background: url(./images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img5 p{
+    color: white;
+    font-size: 2em;
+    width: 70%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img6{
+    background: url(./images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img6 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img7{
+    background: url(./images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img7 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.img8{
+    background: url(./images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    width: 13em;
+    height: 28em;
+}
+
+.img8 p{
+    color: white;
+    font-size: 2em;
+    width: 60%;
+    padding-top: 9.4em;
+    margin-left: 0.5em;
+    font-family: 'Josefin Sans';
+ }
+ .container{
+    width: 96%;
+     padding-left: 0em;
+     margin-left: 1.5em;
+   }
+   footer{
+    background: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+}
+}
+@media only screen and (max-width: 803px) {
+    .header{
+        background-image: url("../images/mobile/image-hero.jpg");
+        height: 84em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .menu{
+       display: none;  
+    }
+    .nav{
+        padding-top: 3em;
+        padding-left: 2.3em;
+        padding-right: 2.3em;
+    }
+ .immersive{
+   width: 65%;
+   font-weight: 500;
+   font-size: 1em;
+   padding-bottom: 0%;
+   margin-top: 24em;
+ }
+    .image{
+        display: none;
+    }
+     .ham{
+        display: block;
+     }
+     .interactive{
+        position: none;
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+        margin: 0%;
+        padding: 0%;
+        margin-top:4em;
+        width: 80%;
+        align-items: center;
+     }
+     .interactive h1{
+       width: 65%;
+     }
+     .para{
+        width: 80%;
+     }
+     .grid{
+        position: none;
+        bottom: 0%;
+        margin: 0%;
+        padding: 0%;
+     }
+     .container{
+        margin: 0%;
+        display: block;
+     }
+    .img1{
+        background: url(./images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img2{
+        background: url(./images/mobile/image-night-arcade.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img3{
+        background: url(./images/mobile/image-soccer-team.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img4{
+        background: url(./images/mobile/image-grid.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img5{
+        background: url(./images/mobile/image-from-above.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img6{
+        background: url(./images/mobile/image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img7{
+        background: url(./images/mobile/image-curiosity.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img8{
+        background: url(./images/mobile/image-fisheye.jpg);
+        background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
+    }
+    .img1 p{
+        color: white;
+        font-size: 2.2em;
+        width: 60%;
+        margin-left: 1.2em;
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+    }
+    .image2{
+        display: flex;
+        align-items: center;
+       
+    }.btn{
+        justify-content:space-between;
+        display: flex;
+        align-items: center;
+        margin-left: 4em;
+        width: 80.1%;
+        padding-bottom: 6em;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
